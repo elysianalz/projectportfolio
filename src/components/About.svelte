@@ -41,7 +41,17 @@
     padding: 5px;
   }
 
+  button {
+    margin-bottom: 35px;
+  }
+
   .logos {
     text-align: center;
   }
+
+  @media screen and (max-width: 820px) {
+		main {
+			width: 90%;
+		}
+	}
 </style>

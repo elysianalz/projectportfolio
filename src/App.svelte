@@ -13,9 +13,9 @@
 <Footer/>
 
 <style>
-	@media (min-width: 640px) {
+	@media (width: 640px) {
 		main {
-			max-width: none;
+			width: 100%;
 		}
 	}
 </style>

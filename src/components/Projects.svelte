@@ -3,7 +3,7 @@
   <p class="lead">This is a collection of projects ive worked on</p>
 
   <content id="projects" class="container">
-    <div class="row g-3">
+    <div class="row row-cols-auto g-4">
 
 
       <div class="col">
@@ -12,7 +12,7 @@
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Urban Dictionary Widget</h5>
             <p class="card-text">A desktop application that interfaces with urbandictionary.com as a floating widget</p>
-            <a href="https://github.com/elysianalz/urbandictionarywidget/tree/master" class = "btn btn-primary mt-auto">visit project</a>
+            <a href="https://github.com/elysianalz/urban-dictionary-widget" class = "btn btn-primary mt-auto">visit project</a>
           </div>
         </article>
       </div>
@@ -32,9 +32,9 @@
         <article class="card">
           <!-- <img src="..." class="card-img-top"> -->
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Patatap Clone</h5>
-            <p class="card-text">clone of the patatap application i made when i was learning about web dev</p>
-            <a href="https://github.com/elysianalz/patatapclone" class = "btn btn-primary mt-auto">visit project</a>
+            <h5 class="card-title">Student Management App (android)</h5>
+            <p class="card-text">An app for managing students, student exams and personal to-dos</p>
+            <a href="https://github.com/elysianalz/student-management-app-android" class = "btn btn-primary mt-auto">visit project</a>
           </div>
         </article>
       </div>
@@ -43,9 +43,64 @@
         <article class="card">
           <!-- <img src="..." class="card-img-top"> -->
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Cigregrette</h5>
-            <p class="card-text">a simple web app that calculates how much life you've lost to ciggerettes</p>
-            <a href="https://github.com/elysianalz/ciggregrette" class = "btn btn-primary mt-auto">visit project</a>
+            <h5 class="card-title">Student Management App (IOS)</h5>
+            <p class="card-text">An app for managing students and personal to-dos</p>
+            <a href="https://github.com/elysianalz/student-management-app-IOS" class = "btn btn-primary mt-auto">visit project</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card">
+          <!-- <img src="..." class="card-img-top"> -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Crosser/Blocker C++ Console Game</h5>
+            <p class="card-text">A game between 2 players. Crosser needs to get across the board without blocker blocking path</p>
+            <a href="https://github.com/elysianalz/crosser-blocker-console-game" class = "btn btn-primary mt-auto">visit project</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card">
+          <!-- <img src="..." class="card-img-top"> -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">C++ Travel Agent Simulator</h5>
+            <p class="card-text">A travel agent made for simulating booking events, flights and hotels for olympic event goers</p>
+            <a href="https://github.com/elysianalz/travel-agent-project" class = "btn btn-primary mt-auto">visit project</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card">
+          <!-- <img src="..." class="card-img-top"> -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Casual Staff Recruitment Agency Database/Design (relational)</h5>
+            <p class="card-text">A database designed for a recruitment agency for a school along with queries for retrieveing information in sql (includes diagrams)</p>
+            <a href="https://github.com/elysianalz/recruitment-agency-database" class = "btn btn-primary mt-auto">visit project</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card">
+          <!-- <img src="..." class="card-img-top"> -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Runescape Woodcutting Bot in Java</h5>
+            <p class="card-text">A bot that controls a runescape character to chop down trees for xp and banks them</p>
+            <a href="https://github.com/elysianalz/runescape-woodcutting-bot" class = "btn btn-primary mt-auto">visit project</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card">
+          <!-- <img src="..." class="card-img-top"> -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">OpenForum</h5>
+            <p class="card-text">Imageboard inspired forum powered by PHP *in development*</p>
+            <a href="#" class = "btn btn-primary mt-auto">visit project</a>
           </div>
         </article>
       </div>
@@ -69,4 +124,10 @@
   color: white;
   text-decoration: none;
   }
+
+  @media screen and (max-width: 820px) {
+		main {
+			width: 90%;
+		}
+	}
 </style>
