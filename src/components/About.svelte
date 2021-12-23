@@ -3,12 +3,14 @@
   <div class="row">
 
     <div class="col">
-      <p class="lead">
-        Cyber security major studying computer science at WSU.
-        Familiar with development of websites/web apps, desktop applications and mobile applications.
-        I have the skills to work fullstack in the backend (relational and non-relational), serverside and frontend.
-        I have a good understanding of networking protocols and how the OSI and TCP/IP model works.
-      </p>
+    <p class="lead">
+      Studying a bachelor's degree in computer science (major in cyber security) at WSU.
+      Experience developing websites/web apps, desktop applications and mobile applications.
+      Experience working with the backend, server-side and frontend.
+      Foundational knowledge of network structure, how data travels through a network (based on the OSI and TCP/IP models)
+      and network protocols.
+      Experience designing, developing and implementing relational and non-relational databases.
+    </p>
       <button onclick="sendEmail()" class="btn btn-info send-email">send email: matthew.beerens@gmail.com</button>
     </div>
 

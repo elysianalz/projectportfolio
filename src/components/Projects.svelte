@@ -1,6 +1,6 @@
 <main class="container-fluid">
   <h1 class ="display-6">Projects</h1>
-  <p class="lead">This is a collection of projects ive worked on</p>
+  <p class="lead">This is a collection of projects I've worked on</p>
 
   <content id="projects" class="container">
     <div class="row row-cols-auto g-4">
@@ -100,7 +100,7 @@
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">OpenForum</h5>
             <p class="card-text">Imageboard inspired forum powered by PHP *in development*</p>
-            <a href="#" class = "btn btn-primary mt-auto">visit project</a>
+            <a href="https://github.com/elysianalz/openforum" class = "btn btn-primary mt-auto">visit project</a>
           </div>
         </article>
       </div>
